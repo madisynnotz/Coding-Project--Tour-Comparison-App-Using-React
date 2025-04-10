@@ -1,0 +1,46 @@
+/* Basic styling to make the app visually appealing and responsive */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tour-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  .tour-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .loading, .error {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
